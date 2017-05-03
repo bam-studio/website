@@ -1,0 +1,6 @@
+---
+name: BAM Studio
+locales: [en]
+subdomain: bamstudio-production
+domains: [bamstudio-production.herokuapp.com]
+timezone: UTC

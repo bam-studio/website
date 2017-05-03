@@ -1,0 +1,13 @@
+development:
+  host: localhost:3000
+  api_key: <%= ENV['BAMSTUDIO_API_KEY'] %>
+staging:
+  host: staging.bam-studio.com
+  api_key: <%= ENV['BAMSTUDIO_API_KEY'] %>
+  ssl: false
+  # ssl_version: TLSv1_2
+production:
+  host: www.bam-studio.com
+  api_key: <%= ENV['BAMSTUDIO_API_KEY'] %>
+  ssl: false
+  # ssl_version: TLSv1_2
